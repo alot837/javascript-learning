@@ -38,3 +38,4 @@ let check =[
 {value:age,type:typeof age}
 ];
 console.table(check)
+//jai hos
