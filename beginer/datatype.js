@@ -39,3 +39,4 @@ let check =[
 ];
 console.table(check)
 //jai hos
+console.log("har har mahadev")
