@@ -40,3 +40,24 @@ let check =[
 console.table(check)
 //jai hos
 console.log("har har mahadev")
+
+// stack and heap memory
+
+// stack
+let pick = 123
+let rick = pick
+ rick = 432
+console.log(pick)
+console.log(rick)
+
+// heap memory
+let objone={
+    namee:"arjun",
+     email:"arjun@gmail.com",
+     class:12
+}
+
+let objtwo = objone;
+ objtwo.email ="sharma@gmail.com";
+console.log(objone.email)
+console.log(objtwo.email)
