@@ -33,3 +33,4 @@ console.log(anotherString)
 
 // by using the split feature of string we can split the string into array 
 console.log(check.split(" "))
+console.log(check.length)
