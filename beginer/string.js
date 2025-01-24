@@ -34,3 +34,15 @@ console.log(anotherString)
 // by using the split feature of string we can split the string into array 
 console.log(check.split(" "))
 console.log(check.length)
+
+// replace the string
+const url = "hhtps/arjun837 server npl.com"
+console.log(url.replace(" ","%20")) // output: hhtps/arjun837%20server npl.com
+
+// replace all
+console.log(url.replaceAll(' ','%20')) //output: hhtps/arjun837%20server%20npl.com
+
+// **********************************************************************************
+
+// to check whether the string contain the specific word are
+console.log(url.includes('arjun'))
