@@ -11,7 +11,7 @@ console.log(`My name is ${name} and my number of repo is sthe ${repo} `); //(`)t
 // another way to decleare the string 
 // this will create a such envaronment from which many function like charat lowercase can be accessed
 
-const gameName = new String('sumbhai-873-done');
+const gameName = new String('sumbhai-873-done'); //new is for the define it as object 
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(3));
