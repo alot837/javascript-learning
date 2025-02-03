@@ -34,3 +34,16 @@ console.log(newArray)
 console.log(typeof newArray)
 
 // slice , splice
+ console.log("_____________________________________________")
+ //IMPORTANT
+//  in slice the orinal array is not manupulated and range is one number less 
+ let arrayCheck = [0,1,2,3,4,5];
+ console.log("without change",arrayCheck);
+ const myNew1 = arrayCheck.slice(1,4);
+ console.log(myNew1);
+ console.log("original array : ",arrayCheck);
+
+//  splice
+// in splice the array is manupulated i.e splice section will be deleted and range is also included
+const myNew2 = arrayCheck.splice(1,4);
+console.log("original arrya :",arrayCheck);
