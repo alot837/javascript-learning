@@ -17,4 +17,3 @@ const all_new_heros = [...nepali_heros, ...indian_heros]
 console.log("spread : ",all_new_heros);
 
 // to solve pobalmatic situtation where there is array in side array and again inside array there is another array
-
